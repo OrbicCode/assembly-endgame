@@ -143,8 +143,9 @@ export default function AssemblyEndgame() {
             {
                 isGameWon && 
                     <Confetti
-                        recycle={false}
+                        recycle={true}
                         numberOfPieces={1000}
+                        className="confetti"
                     />
             }
             <header>

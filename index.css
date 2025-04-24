@@ -179,3 +179,7 @@ button.new-game {
     white-space: nowrap;
     border: 0;
 }
+
+.confetti {
+    width: 100%;
+}
